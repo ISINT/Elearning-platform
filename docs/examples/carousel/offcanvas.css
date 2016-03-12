@@ -6,7 +6,8 @@ html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
   background-color: lightblue;
-    color: green;
+  color: green;
+   
    
     
 }
@@ -17,7 +18,9 @@ footer {
   padding: 30px 0;
     color: #777;
 }
-
+img{
+    margin: 0px 20px 0px 0px;
+}
 
 /*
  * Off Canvas

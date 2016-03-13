@@ -6,11 +6,11 @@
 		$firstName=$_POST["firstName"];
 		$surname=$_POST["surname"];
 		$username=$_POST["username"];
-		$password=$_POST["password"];
+		$userPassword=$_POST["userPassword"];
 
-		if (!$firstName||!$surname||!$username||!$password)
+		if (!$firstName||!$surname||!$username||!$userPassword)
 		{
-			print("Please enter your first name, surname, username and create password");
+			print("Please enter your first name, surname, username and create userPassword");
 		}
 
 		else
@@ -28,7 +28,7 @@
 
 			else
 			{
-				$sqlSetning=" INSERT INTO elearning (firstName,surname,username,password) VALUES('$firstName','$surname','$username','$password');";
+				$sqlSetning=" INSERT INTO elearning (firstName,surname,username,userPassword) VALUES('$firstName','$surname','$username','$userPassword');";
 				mysqli_query($db,$sqlSetning) or die ("Could not write to database");
 				print(" $firstName $surname , you are now registered with the username $username");				
 			}

@@ -24,7 +24,7 @@ function musInn(element)
     {
       document.getElementById("melding").innerHTML="Your username is the name that will be visable when you're logged in";
     }
-  if (element==document.getElementById("password"))
+  if (element==document.getElementById("userPassword"))
     {
       document.getElementById("melding").innerHTML="Your password needs to be at least 6 characters long";
     }

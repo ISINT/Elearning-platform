@@ -15,20 +15,22 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 650px;
+  height: 500px;
   margin-bottom: 60px;
+  
     
     
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  color: black;
+  color: white;
+  text-shadow:#777;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 650px;
+  height: 500px;
   background-color: lightblue;
 }
 .carousel-inner > .item > img {

@@ -28,12 +28,7 @@ if (!$("input[@name=q1]:checked").val() ||
 !$("input[@name=q25]:checked").val() ||            
 !$("input[@name=q26]:checked").val() ||            
 !$("input[@name=q27]:checked").val() ||            
-!$("input[@name=q28]:checked").val() ||            
-!$("input[@name=q29]:checked").val() ||            
-!$("input[@name=q30]:checked").val() ||            
-!$("input[@name=q31]:checked").val() ||            
-!$("input[@name=q32]:checked").val() ||            
-!$("input[@name=q33]:checked").val()          
+!$("input[@name=q28]:checked").val()          
 ) {            
 alert("Alle spørsmål må besvares!");        
 }        
@@ -80,25 +75,26 @@ var cat7 = ($("input[@name=q7]:checked").val() != "c");
 var cat8 = ($("input[@name=q8]:checked").val() != "d");
 var cat9 = ($("input[@name=q9]:checked").val() != "a");
 var cat10 = ($("input[@name=q10]:checked").val() != "b");
-var cat11 = ($("input[@name=q10]:checked").val() != "a");
-var cat12 = ($("input[@name=q10]:checked").val() != "d");
-var cat13 = ($("input[@name=q10]:checked").val() != "b"); 
-var cat14 = ($("input[@name=q10]:checked").val() != "a"); 
-var cat15 = ($("input[@name=q10]:checked").val() != "c"); 
-var cat16 = ($("input[@name=q10]:checked").val() != "b"); 
-var cat17 = ($("input[@name=q10]:checked").val() != "b"); 
-var cat18 = ($("input[@name=q10]:checked").val() != "d"); 
-var cat19 = ($("input[@name=q10]:checked").val() != "c"); 
-var cat20 = ($("input[@name=q10]:checked").val() != "b"); 
-var cat21 = ($("input[@name=q10]:checked").val() != "d"); 
-var cat22 = ($("input[@name=q10]:checked").val() != "b"); 
-var cat23 = ($("input[@name=q10]:checked").val() != "c"); 
-var cat24 = ($("input[@name=q10]:checked").val() != "b"); 
-var cat25 = ($("input[@name=q10]:checked").val() != "c"); 
-var cat26 = ($("input[@name=q10]:checked").val() != "a"); 
-var cat27 = ($("input[@name=q10]:checked").val() != "a");
+var cat11 = ($("input[@name=q11]:checked").val() != "a");
+var cat12 = ($("input[@name=q12]:checked").val() != "d");
+var cat13 = ($("input[@name=q13]:checked").val() != "b"); 
+var cat14 = ($("input[@name=q14]:checked").val() != "a"); 
+var cat15 = ($("input[@name=q15]:checked").val() != "c"); 
+var cat16 = ($("input[@name=q16]:checked").val() != "b"); 
+var cat17 = ($("input[@name=q17]:checked").val() != "b"); 
+var cat18 = ($("input[@name=q18]:checked").val() != "d"); 
+var cat19 = ($("input[@name=q19]:checked").val() != "c"); 
+var cat20 = ($("input[@name=q20]:checked").val() != "b"); 
+var cat21 = ($("input[@name=q21]:checked").val() != "d"); 
+var cat22 = ($("input[@name=q22]:checked").val() != "b"); 
+var cat23 = ($("input[@name=q23]:checked").val() != "c"); 
+var cat24 = ($("input[@name=q24]:checked").val() != "b"); 
+var cat25 = ($("input[@name=q25]:checked").val() != "c"); 
+var cat26 = ($("input[@name=q26]:checked").val() != "a"); 
+var cat27 = ($("input[@name=q27]:checked").val() != "a");
+var cat28 = ($("input[@name=q28]:checked").val() != "a");
 
-var cat28 = (!cat1 && !cat2 && !cat3 && 
+var cat29 = (!cat1 && !cat2 && !cat3 && 
 			 !cat4 && !cat5 && !cat6 && 
 			 !cat7 && !cat8 && !cat9 && 
 			 !cat10 && !cat11 && !cat12 && 
@@ -137,6 +133,7 @@ if (cat25) { categories.push(cat25name) };
 if (cat26) { categories.push(cat26name) };
 if (cat27) { categories.push(cat27name) };
 if (cat28) { categories.push(cat28name) };
+if (cat29) { categories.push(cat29name) };
 var catStr = 'følgende svar er feil: ' + categories.join(', ') + '';                     
 $("#categorylist").text(catStr);                        
 $("#categorylist").show("slow");            
@@ -169,6 +166,7 @@ if (cat25) { $("#category25").show("slow"); };
 if (cat26) { $("#category26").show("slow"); };           
 if (cat27) { $("#category27").show("slow"); };           
 if (cat28) { $("#category28").show("slow"); };
+if (cat29) { $("#category29").show("slow"); };
 { $("#closing").show("slow"); };
 }
     });});

@@ -1,7 +1,8 @@
 $(document).ready(function() 
 {    $("#results").click(function() {                
 
-if (!$("input[@name=q1]:checked").val() ||            
+if (
+!$("input[@name=q1]:checked").val() ||            
 !$("input[@name=q2]:checked").val() ||            
 !$("input[@name=q3]:checked").val() ||            
 !$("input[@name=q4]:checked").val() ||            

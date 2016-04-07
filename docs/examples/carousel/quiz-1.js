@@ -2,35 +2,35 @@ $(document).ready(function()
 {    $("#results").click(function() {                
 
 if (
-!$("input[@name=q1]:checked").val() ||            
-!$("input[@name=q2]:checked").val() ||            
-!$("input[@name=q3]:checked").val() ||            
-!$("input[@name=q4]:checked").val() ||            
-!$("input[@name=q5]:checked").val() ||            
-!$("input[@name=q6]:checked").val() ||            
-!$("input[@name=q7]:checked").val() ||            
-!$("input[@name=q8]:checked").val() ||            
-!$("input[@name=q9]:checked").val() ||            
-!$("input[@name=q10]:checked").val() ||            
-!$("input[@name=q11]:checked").val() ||            
-!$("input[@name=q12]:checked").val() ||            
-!$("input[@name=q13]:checked").val() ||            
-!$("input[@name=q14]:checked").val() ||            
-!$("input[@name=q15]:checked").val() ||            
-!$("input[@name=q16]:checked").val() ||            
-!$("input[@name=q17]:checked").val() ||            
-!$("input[@name=q18]:checked").val() ||            
-!$("input[@name=q19]:checked").val() ||            
-!$("input[@name=q20]:checked").val() ||            
-!$("input[@name=q21]:checked").val() ||            
-!$("input[@name=q22]:checked").val() ||            
-!$("input[@name=q23]:checked").val() ||            
-!$("input[@name=q24]:checked").val() ||            
-!$("input[@name=q25]:checked").val() ||            
-!$("input[@name=q26]:checked").val() ||            
-!$("input[@name=q27]:checked").val()          
+!$("input[name='q1']:checked").val() ||            
+!$("input[name='q2']:checked").val() ||            
+!$("input[name='q3']:checked").val() ||            
+!$("input[name='q4']:checked").val() ||            
+!$("input[name='q5']:checked").val() ||            
+!$("input[name='q6']:checked").val() ||            
+!$("input[name='q7']:checked").val() ||            
+!$("input[name='q8']:checked").val() ||            
+!$("input[name='q9']:checked").val() ||            
+!$("input[name='q10']:checked").val() ||            
+!$("input[name='q11']:checked").val() ||            
+!$("input[name='q12']:checked").val() ||            
+!$("input[name='q13']:checked").val() ||            
+!$("input[name='q14']:checked").val() ||            
+!$("input[name='q15']:checked").val() ||            
+!$("input[name='q16']:checked").val() ||            
+!$("input[name='q17']:checked").val() ||            
+!$("input[name='q18']:checked").val() ||            
+!$("input[name='q19']:checked").val() ||            
+!$("input[name='q20']:checked").val() ||            
+!$("input[name='q21']:checked").val() ||            
+!$("input[name='q22']:checked").val() ||            
+!$("input[name='q23']:checked").val() ||            
+!$("input[name='q24']:checked").val() ||            
+!$("input[name='q25']:checked").val() ||            
+!$("input[name='q26']:checked").val() ||            
+!$("input[name='q27']:checked").val()          
 ) {            
-alert("All Quesions need an answear!");        
+alert("Sorry, buy you are not done yet!");        
 }        
 
 else {            

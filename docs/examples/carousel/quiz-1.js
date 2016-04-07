@@ -28,8 +28,7 @@ if (
 !$("input[@name=q24]:checked").val() ||            
 !$("input[@name=q25]:checked").val() ||            
 !$("input[@name=q26]:checked").val() ||            
-!$("input[@name=q27]:checked").val() ||            
-!$("input[@name=q28]:checked").val()          
+!$("input[@name=q27]:checked").val()          
 ) {            
 alert("Alle spørsmål må besvares!");        
 }        
@@ -61,9 +60,8 @@ var cat23name = "23";
 var cat24name = "24";            
 var cat25name = "25";            
 var cat26name = "26";            
-var cat27name = "27";            
-var cat28name = "28";                       
-var cat29name = "None";            
+var cat27name = "27";                      
+var cat28name = "None";            
             
 
 var cat1 = ($("input[@name=q1]:checked").val() != "a");           
@@ -93,9 +91,8 @@ var cat24 = ($("input[@name=q24]:checked").val() != "b");
 var cat25 = ($("input[@name=q25]:checked").val() != "c"); 
 var cat26 = ($("input[@name=q26]:checked").val() != "a"); 
 var cat27 = ($("input[@name=q27]:checked").val() != "a");
-var cat28 = ($("input[@name=q28]:checked").val() != "a");
 
-var cat29 = (!cat1 && !cat2 && !cat3 && 
+var cat28 = (!cat1 && !cat2 && !cat3 && 
 			 !cat4 && !cat5 && !cat6 && 
 			 !cat7 && !cat8 && !cat9 && 
 			 !cat10 && !cat11 && !cat12 && 
@@ -103,8 +100,8 @@ var cat29 = (!cat1 && !cat2 && !cat3 &&
 			 !cat16 && !cat17 && !cat18 &&
 			 !cat19 && !cat20 && !cat21 &&
 			 !cat22 && !cat23 && !cat24 &&
-			 !cat25 && !cat26 && !cat27 &&
-			 !cat28); var categories = [];                        
+			 !cat25 && !cat26 && !cat27
+			); var categories = [];                        
 
 if (cat1) { categories.push(cat1name) };            
 if (cat2) { categories.push(cat2name) };            
@@ -134,7 +131,6 @@ if (cat25) { categories.push(cat25name) };
 if (cat26) { categories.push(cat26name) };
 if (cat27) { categories.push(cat27name) };
 if (cat28) { categories.push(cat28name) };
-if (cat29) { categories.push(cat29name) };
 var catStr = 'følgende svar er feil: ' + categories.join(', ') + '';                     
 $("#categorylist").text(catStr);                        
 $("#categorylist").show("slow");            
@@ -167,7 +163,6 @@ if (cat25) { $("#category25").show("slow"); };
 if (cat26) { $("#category26").show("slow"); };           
 if (cat27) { $("#category27").show("slow"); };           
 if (cat28) { $("#category28").show("slow"); };
-if (cat29) { $("#category29").show("slow"); };
 { $("#closing").show("slow"); };
 }
     });});

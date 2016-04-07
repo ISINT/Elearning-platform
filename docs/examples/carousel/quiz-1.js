@@ -96,10 +96,9 @@ var cat23 = ($("input[@name=q10]:checked").val() != "c");
 var cat24 = ($("input[@name=q10]:checked").val() != "b"); 
 var cat25 = ($("input[@name=q10]:checked").val() != "c"); 
 var cat26 = ($("input[@name=q10]:checked").val() != "a"); 
-var cat27 = ($("input[@name=q10]:checked").val() != "a"); 
-var cat28 = ($("input[@name=q10]:checked").val() != "b"); 
+var cat27 = ($("input[@name=q10]:checked").val() != "a");
 
-var cat29 = (!cat1 && !cat2 && !cat3 && 
+var cat28 = (!cat1 && !cat2 && !cat3 && 
 			 !cat4 && !cat5 && !cat6 && 
 			 !cat7 && !cat8 && !cat9 && 
 			 !cat10 && !cat11 && !cat12 && 
@@ -108,7 +107,7 @@ var cat29 = (!cat1 && !cat2 && !cat3 &&
 			 !cat19 && !cat20 && !cat21 &&
 			 !cat22 && !cat23 && !cat24 &&
 			 !cat25 && !cat26 && !cat27 &&
-			 !cat28 && !cat29); var categories = [];                        
+			 !cat28); var categories = [];                        
 
 if (cat1) { categories.push(cat1name) };            
 if (cat2) { categories.push(cat2name) };            
@@ -138,7 +137,6 @@ if (cat25) { categories.push(cat25name) };
 if (cat26) { categories.push(cat26name) };
 if (cat27) { categories.push(cat27name) };
 if (cat28) { categories.push(cat28name) };
-if (cat29) { categories.push(cat29name) };
 var catStr = 'følgende svar er feil: ' + categories.join(', ') + '';                     
 $("#categorylist").text(catStr);                        
 $("#categorylist").show("slow");            
@@ -154,24 +152,23 @@ if (cat8) { $("#category8").show("slow"); };
 if (cat9) { $("#category9").show("slow"); };            
 if (cat10) { $("#category10").show("slow"); };            
 if (cat11) { $("#category11").show("slow"); };           
-if (cat12) { $("#category11").show("slow"); };           
-if (cat13) { $("#category11").show("slow"); };           
-if (cat14) { $("#category11").show("slow"); };           
-if (cat15) { $("#category11").show("slow"); };           
-if (cat16) { $("#category11").show("slow"); };           
-if (cat17) { $("#category11").show("slow"); };           
-if (cat18) { $("#category11").show("slow"); };           
-if (cat19) { $("#category11").show("slow"); };           
-if (cat20) { $("#category11").show("slow"); };           
-if (cat21) { $("#category11").show("slow"); };           
-if (cat22) { $("#category11").show("slow"); };           
-if (cat23) { $("#category11").show("slow"); };           
-if (cat24) { $("#category11").show("slow"); };           
-if (cat25) { $("#category11").show("slow"); };           
-if (cat26) { $("#category11").show("slow"); };           
-if (cat27) { $("#category11").show("slow"); };           
-if (cat28) { $("#category11").show("slow"); };           
-if (cat29) { $("#category11").show("slow"); };
+if (cat12) { $("#category12").show("slow"); };           
+if (cat13) { $("#category13").show("slow"); };           
+if (cat14) { $("#category14").show("slow"); };           
+if (cat15) { $("#category15").show("slow"); };           
+if (cat16) { $("#category16").show("slow"); };           
+if (cat17) { $("#category17").show("slow"); };           
+if (cat18) { $("#category18").show("slow"); };           
+if (cat19) { $("#category19").show("slow"); };           
+if (cat20) { $("#category20").show("slow"); };           
+if (cat21) { $("#category21").show("slow"); };           
+if (cat22) { $("#category22").show("slow"); };           
+if (cat23) { $("#category23").show("slow"); };           
+if (cat24) { $("#category24").show("slow"); };           
+if (cat25) { $("#category25").show("slow"); };           
+if (cat26) { $("#category26").show("slow"); };           
+if (cat27) { $("#category27").show("slow"); };           
+if (cat28) { $("#category28").show("slow"); };
 { $("#closing").show("slow"); };
 }
     });});

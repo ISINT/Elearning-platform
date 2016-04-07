@@ -30,7 +30,7 @@ if (
 !$("input[@name=q26]:checked").val() ||            
 !$("input[@name=q27]:checked").val()          
 ) {            
-alert("Alle spørsmål må besvares!");        
+alert("All Quesions need an answear!");        
 }        
 
 else {            

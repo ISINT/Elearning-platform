@@ -21,7 +21,7 @@ function checkUsernamePassword($username, $userPassword)
     {
         $rad=mysqli_fetch_array($sqlResultat);
         $lagretBrukernavn=$rad["username"];
-        $lagretPassord=$rad["userPassord"];
+        $lagretPassord=$rad["userPassword"];
         
         $userPassword=md5($userPassword); /*innparameter-passord kryptert med md5-funksjonen*/
         

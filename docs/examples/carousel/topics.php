@@ -1,4 +1,16 @@
-<!DOCTYPE html>
+<?php 
+
+session_start();
+@$loggedInnUser=$_SESSION["username"];
+
+	if (!$loggedInnUser)
+	{
+print("<h2>Log in is required to access this page!</h2> <br/>");
+	}
+	else
+	{
+?>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -48,12 +60,12 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="topics.html">Topics</a></li>
-            <li><a href="about-us.html">About us</a></li>
-            <li><a href="contact-us.html">Contact us</a></li>
+            <li class="active"><a href="topics.php">Topics</a></li>
+            <li><a href="about-us.php">About us</a></li>
+            <li><a href="contactUs.php">Contact us</a></li>
           </ul>
-             <form class="navbar-form navbar-right" action="registerStudent.php">
-        <button class="btn btn-primary">Sign up</button>
+             <form class="navbar-form navbar-right" action="logout.php">
+        <button class="btn btn-primary" >Log out</button>
         </form>
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
@@ -119,16 +131,21 @@
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
           <div class="list-group">
           
-            
-            
+            <a href="profile-page.php" class="list-group-item">Your profile</a>
+            <a href="#" class="list-group-item">Recommended Topics</a>
+            <a href="accomplishments.html" class="list-group-item">Accomplishments</a>
+            <a href="relevantlinks.html" class="list-group-item">Relevant Links</a>
+            <a href="http://barclayscodeplayground.co.uk/" class="list-group-item" target="_blank">Programming for kids</a>
+            </br> </br>
+            <div class="col-xs-14 col-sm-13 sidebar-offcanvas" id="sidebar">
               <div class="list-group-item">
               <h3 style="color: #3399ff;">NEWS FEED</H3>
-                <p style="color: black;"> We have released a new geometry topic! </br> </br>   20.03.2016</p>
+                <p style="color: black;"> We have released a new geometry course! </br> </br>   20.03.2016</p>
                   <a href="blog.html"> Click for more</a>
                 </br></br></br>
-                  <p style="color: black;"> We have released a new fun multiplication topic! </br> </br>   20.03.2016</p>
+                  <p style="color: black;"> We have released a new advanced algorithm course! </br> </br>   20.03.2016</p>
                     <a href="blog.html"> Click for more</a>
-              
+              </div>
           </div><!--/.sidebar-offcanvas-->
               
             
@@ -167,3 +184,7 @@
     <script src="offcanvas.js"></script>
   </body>
 </html>
+
+<?php
+    }
+    ?>

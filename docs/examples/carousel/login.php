@@ -18,7 +18,7 @@
         {
             @session_start();
             $_SESSION["username"]=$username;
-            print("<META HTTP-EQUIV='Refresh' CONTENT='0;URL=profile-page.html'>");  
+            print("<META HTTP-EQUIV='Refresh' CONTENT='0;URL=profile-page.php'>");  
         }
     }
 

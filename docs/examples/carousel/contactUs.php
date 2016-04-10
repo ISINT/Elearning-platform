@@ -1,4 +1,19 @@
+<?php 
+
+session_start();
+@$loggedInnUser=$_SESSION["username"];
+
+	if (!$loggedInnUser)
+	{
+print("<h2>Log in is required to access this page!</h2> <br/>");
+	}
+	else
+	{
+?>
+
+
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,11 +24,12 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>About us</title>
+    <title>Contact us</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
       
+        
     <!-- Font Awesome core css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -32,10 +48,17 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="hendelser-registrerStudent.js"></script>
       </head>
-    <body>
-        
-     <nav class="navbar navbar-fixed-top navbar-inverse">
+
+
+    <!-- NAVBAR
+================================================== -->
+    
+      <body>
+         
+      <div class="container">
+       <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -46,94 +69,75 @@
           </button>
           <a class="navbar-brand" href="index.html"><img src="images/MC_logo.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
         </div>
+          
         <div id="navbar" class="collapse navbar-collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li ><a href="topics.html">Topics</a></li>
-            <li class="active"><a href="about-us.html">About us</a></li>
-            <li><a href="contact-us.html">Contact us</a></li>
+            <ul class="nav navbar-nav">
+           <li ><a href="topics.php">Topics</a></li>
+            <li><a href="about-us.php">About us</a></li>
+            <li class="active"><a href="contactUs.php">Contact us</a></li>
           </ul>
-             <form class="navbar-form navbar-right" action="registerStudent.php">
-        <button class="btn btn-primary">Sign up</button>
+        <form class="navbar-form navbar-right" action="logout.php">
+        <button class="btn btn-primary" >Log out</button>
         </form>
-        </div><!-- /.nav-collapse -->
-      </div><!-- /.container -->
-    </nav><!-- /.navbar -->
-        
-        
-        <div class="container">
-
-      <div class="row row-offcanvas row-offcanvas-right">
-
-        <div class="col-xs-12 col-sm-9">
-          <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-          </p>
-          <div class="jumbotron">
-        
-            <h2 style="text-align:center">The MathCorner team</h2>
-            
-            
-            
-                  
-    <table class="table">
-           
-        <tbody>
-        <tr>
-        <td><img class="img-rounded" src="images/avatar.jpg" alt="Avatar" width="140" height="150" align="center"></td>
-        <td><h4>Name: Frank Ofori Asiedu<br/><br/>Role: Developer </h4></td>
-            </tr>
-            <tr>
-                <td><img class="img-rounded" src="images/avatar-female.png" alt="Avatar" width="140" height="150" align="center"></td>
-                <td><h4>Name: Veronika Bojanowski<br/><br/>Role: Developer </h4></td>
-            </tr>
-                <tr>
-                    <td><img class="img-rounded" src="images/avatar.jpg" alt="Avatar" width="140" height="150" align="center"></td>
-                    <td><h4>Name: Vegar Fredriksen<br/><br/>Role: Developer </h4></td>
-            </tr>
-                <tr>
-                    <td><img class="img-rounded" src="images/avatar.jpg" alt="Avatar" width="140" height="150" align="center"></td>
-                    <td><h4>Name: Henrik Wenn Nesset<br/><br/>Role: Developer </h4></td>
-                </tr>
-                <tr>
-                    <td><img class="img-rounded" src="images/avatar-female.png" alt="Avatar" width="140" height="150" align="center"></td>
-                    <td><h4>Name: Imen Vinje<br/><br/>Role: Developer </h4></td>
-                </tr>
-      
-                </tbody>
-         </table>
-         <hr>
-        
-         </div>
-           
-         
-     </div><!--/.col-xs-12.col-sm-9-->
-          
-            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-          <div class="list-group">
           
             
-            
-              <div class="list-group-item">
-              <h3 style="color: #3399ff;">NEWS FEED</H3>
-                <p style="color: black;"> We have released a new geometry topic! </br> </br>   20.03.2016</p>
-                  <a href="blog.html"> Click for more</a>
-                </br></br></br>
-                  <p style="color: black;"> We have released a new fun multiplication topic! </br> </br>   20.03.2016</p>
-                    <a href="blog.html"> Click for more</a>
-              
-          </div><!--/.sidebar-offcanvas-->
-              
-            
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
           </div>
-        </div><!--/.sidebar-offcanvas-->
+     <!-- NAVBAR SLUTT
+================================================== --> 
 
+    <div class="container">
+        <div class="jumbotron">
+  
+
+            <h2>Contact us here!</h2>
+            <p>We reply as fast as we can! </p><br/>
+
+            <!--Bootstrap horizontal FORM start-->
+            <form class="form-horizontal" method="post" action="contact-us.php" id="contact-us" name="contact-us">
+
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Name"required onFocus="fokus(this)" onBlur="mistetFokus(this)" onMouseOver="musInn(this)" onMouseOut="musUt()"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Email"required onFocus="fokus(this)" onBlur="mistetFokus(this)" onMouseOver="musInn(this)" onMouseOut="musUt()"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="username" name="username" placeholder="Username" onFocus="fokus(this)" onBlur="mistetFokus(this)" onMouseOut="musUt()"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Message</label>
+                <div class="col-sm-8">
+                  <textarea rows="5" cols="30" class="form-control" id="message" name="message" required onFocus="fokus(this)" onBlur="mistetFokus(this)" onMouseOver="musInn(this)" onMouseOut="musUt()"></textarea><br/><br/>
+                </div>
+              </div>
+                
+                 <div align="right"> 
+                <input type="submit" value="Submit"  id="submitMessage" name="submitMessage" class="btn btn-success" />
+               <button type="reset" name="reset" id="reset" class="btn btn-primary" >Reset</button><br/><br/></div>
+
+                </div>
+
+            </form>
+            <!--Bootstrap horizontal FORM slutt-->
+  
           
-        </div><!--/row-->
-        
-        
+        </div>
         <hr>
-
-       <!-- FOOTER -->
+        </div>
+              <!-- FOOTER -->
+        <div class="container">
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2016 IS/INT1000 Group 5 - Created by Frank, Henrik, Veronika, Vegar og Imen. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
@@ -147,7 +151,8 @@
           </div>
       </footer>
 
-    </div><!--/.container-->
+    </div>
+        <!--/.container-->
 
 
     <!-- Bootstrap core JavaScript
@@ -161,3 +166,6 @@
     <script src="offcanvas.js"></script>
   </body>
 </html>
+<?php
+    }
+?>

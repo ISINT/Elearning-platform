@@ -1,4 +1,17 @@
-<!DOCTYPE html>
+<?php 
+
+session_start();
+@$loggedInnUser=$_SESSION["username"];
+
+	if (!$loggedInnUser)
+	{
+print("<h2>Log in is required to access this page!</h2> <br/>");
+	}
+	else
+	{
+?>
+
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,7 +22,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Maths Topics</title>
+    <title>About us</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +48,7 @@
       </head>
     <body>
         
-        <nav class="navbar navbar-fixed-top navbar-inverse">
+     <nav class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -44,16 +57,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-                <a class="navbar-brand" href="index.html"><img src="images/MC_logo.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
+          <a class="navbar-brand" href="index.html"><img src="images/MC_logo.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="topics.html">Topics</a></li>
-            <li><a href="about-us.html">About us</a></li>
-            <li><a href="contact-us.html">Contact us</a></li>
+            <li ><a href="topics.php">Topics</a></li>
+            <li class="active"><a href="about-us.php">About us</a></li>
+            <li><a href="contactUs.php">Contact us</a></li>
           </ul>
-             <form class="navbar-form navbar-right" action="registerStudent.php">
-        <button class="btn btn-primary">Sign up</button>
+             <form class="navbar-form navbar-right" action="logout.php">
+        <button class="btn btn-primary" >Log out</button>
         </form>
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
@@ -69,56 +82,56 @@
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
-            <a href="#"><h2>NUMBERS</h2></a>
-            <p><img class="img-rounded" src="images/numbers.jpg" alt="Generic placeholder image" width="130" height="130" align="left"> Learn Numbers with Bernie. Bernie is counting the pennies in her piggy bank. She is counting them in piles of ten. She has four piles of ten coins and five remaining.</p>
-          </div>
-            <hr>
-            <div class="jumbotron">
-            <a href="#"><h2>2D AND 3D SHAPES</h2></a>
-            <p><img class="img-rounded" src="images/shapes.jpeg" alt="Generic placeholder image" width="130" height="130" align="left">What shape is an orange? What shape is a football field? Learn all the different shapes there is with Brody and Pam and have fun with them. Shapes are fun!</p>
-          </div>
-            <hr>
-            <div class="jumbotron">
-            <a href="#"><h2>TIME</h2></a>
-            <p><img class="img-rounded" src="images/clock.jpg" alt="Generic placeholder image" width="130" height="130" align="left">What is the time on the clock? What time did you wake up this morning? What time does school start everyday? Time is best learnt the fun way. Try it with Jody now!</p>
-          </div>
-            <hr>
-            <div class="jumbotron">
-            <a href="#"><h2>ADDITION</h2></a>
-            <p><img class="img-rounded" src="images/math2.jpeg" alt="Generic placeholder image" width="130" height="130" align="left">Now we put the numbers you learnt earlier on to use. How many balls do you see on your screen? How many balls are there alltogether if we had 5 balls and we get a further 7? </p>
-          </div>
-            <hr>
-            <div class="jumbotron">
-            <a href="#"><h2>SUBTRACTION</h2></a>
-            <p><img class="img-rounded" src="images/math3.jpg" alt="Generic placeholder image" width="130" height="130" align="left">We are going to learn subtraction using the take away song. Take 4 away from 10, what number do you get? Let's learn to subtract with the take away song. It will be so much fun.</p>
-          </div>
-            <hr>
-            <div class="jumbotron">
-            <a href="#"><h2>MULTIPLICATION</h2></a>
-            <p><img class="img-rounded" src="images/multiplication.png" alt="Generic placeholder image" width="130" height="130" align="left">If mummy gives you 2 books everyday, how many books will you have after 5 days? If you eat 5 slices of bread everyday, how many slices would you have eaten in 1 week?  </p>
-          </div>
-            <hr>
-            <div class="jumbotron">
-            <a href="#"><h2>DIVISION</h2></a>
-            <p><img class="img-rounded" src="images/division.png" alt="Generic placeholder image" width="130" height="130" align="left">Watch 3 kids share 30 red balls  and 12 yellow balls. How many balls will they get each? How many slices of cake will you get if 10 slices are to be shared by you and 4 other kids?</p>
-          </div>
-            <hr>
-            <div class="jumbotron">
-            <a href="#"><h2>DECIMALS</h2></a>
-            <p><img class="img-rounded" src="images/Decimals.jpg" alt="Generic placeholder image" width="130" height="130" align="left">Decimal numbers are 2 or more numbers with a dot in between. How do you read decimal numbers correctly? Lets learn about decimal numbers.</p>
-          </div>
-            <hr>
-            <div class="jumbotron">
-            <a href="#"><h2>FRACTIONS</h2></a>
-            <p><img class="img-rounded" src="images/fractions.jpg" alt="Generic placeholder image" width="130" height="130" align="left">Divide an orange into 4 and take 1 portion from the 4, what fraction is that? If you divide a pizza into 6 and you eat 3, what fraction have you eaten?</p>
-          </div>
-          
+        
+            <h2 style="text-align:center">The MathCorner team</h2>
+                 
+                  
+    <table class="table">
+           
+        <tbody>
+        <tr>
+        <td><img class="img-rounded" src="images/avatar.jpg" alt="Avatar" width="140" height="150" align="center"></td>
+        <td><h4>Name: Frank Ofori Asiedu<br/><br/>Role: Developer </h4></td>
+            </tr>
+            <tr>
+                <td><img class="img-rounded" src="images/avatar-female.png" alt="Avatar" width="140" height="150" align="center"></td>
+                <td><h4>Name: Veronika Bojanowski<br/><br/>Role: Developer </h4></td>
+            </tr>
+                <tr>
+                    <td><img class="img-rounded" src="images/avatar.jpg" alt="Avatar" width="140" height="150" align="center"></td>
+                    <td><h4>Name: Vegar Fredriksen<br/><br/>Role: Developer </h4></td>
+            </tr>
+                <tr>
+                    <td><img class="img-rounded" src="images/avatar.jpg" alt="Avatar" width="140" height="150" align="center"></td>
+                    <td><h4>Name: Henrik Wenn Nesset<br/><br/>Role: Developer </h4></td>
+                </tr>
+                <tr>
+                    <td><img class="img-rounded" src="images/avatar-female.png" alt="Avatar" width="140" height="150" align="center"></td>
+                    <td><h4>Name: Imen Vinje<br/><br/>Role: Developer </h4></td>
+                </tr>
+      
+                </tbody>
+         </table>
+         <hr>
+        
+         </div>
+           
          
-        </div><!--/.col-xs-12.col-sm-9-->
-
-        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-          <div class="list-group">
+     </div><!--/.col-xs-12.col-sm-9-->
           
+           <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+          <div class="list-group">
+            
+            <a href="profile-page.php" class="list-group-item">Your profile</a>
+            <a href="#" class="list-group-item">Recommended Topics</a>
+            <a href="#" class="list-group-item">Accomplishments</a>
+            <a href="#" class="list-group-item">Relevant Links</a>
+            <a href="http://barclayscodeplayground.co.uk/" class="list-group-item" target="_blank">Programming for kids</a>
+            
+              
+            
+          </div>
+       
             
             
               <div class="list-group-item">
@@ -129,11 +142,13 @@
                   <p style="color: black;"> We have released a new fun multiplication topic! </br> </br>   20.03.2016</p>
                     <a href="blog.html"> Click for more</a>
               
-          </div><!--/.sidebar-offcanvas-->
+         
               
             
           </div>
         </div><!--/.sidebar-offcanvas-->
+
+          
         </div><!--/row-->
         
         
@@ -167,3 +182,7 @@
     <script src="offcanvas.js"></script>
   </body>
 </html>
+
+<?php
+ }
+?>

@@ -1,4 +1,16 @@
-<!DOCTYPE html>
+<?php 
+
+session_start();
+@$loggedInnUser=$_SESSION["username"];
+
+	if (!$loggedInnUser)
+	{
+print("<h2>Log in is required to access this page!</h2> <br/>");
+	}
+	else
+	{
+?>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -49,9 +61,9 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li><a href="topics.html">Topics</a></li>
-            <li><a href="about-us.html">About us</a></li>
-            <li><a href="contact-us.html">Contact us</a></li>
+            <li><a href="topics.php">Topics</a></li>
+            <li><a href="about-us.php">About us</a></li>
+            <li><a href="contactUs.php">Contact us</a></li>
           </ul>
             <form class="navbar-form navbar-right" action="logout.php">
         <button class="btn btn-primary" >Log out</button>
@@ -71,15 +83,26 @@
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
+              
         <div class="alert alert-warning alert-dismissible" role="alert">
         <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
         <span class="sr-only">Warning:</span>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <strong>Note!</strong> Your profile is visible to only you.
         </div>
-            <p><h2>Hello Username!</h2></p>
-            <p><img class="img-rounded" src="images/avatar.jpg" alt="Avatar" width="140" height="150" align="left"> Username<br/> Firstname Lastname <br/> Country</p>
-            <p align="right"><a class="btn btn-lg btn-primary" href="#" role="button" >Edit profile</a></p>
+              <?php
+                $username=$_SESSION["username"];
+           print( "<p><h2>Hello $username!</h2></p>");
+                ?>
+            <p><img class="img-rounded" src="images/avatar.jpg" alt="Avatar" width="140" height="150" align="left">
+                
+<?php 
+        
+        print("Enjoy using our Elearning platform to gain yourself some useful knowledge. Remember, you will be rewarded with a certificate at the end of each topic.</br> Good luck with your learning $username!<br/> ");
+        
+    ?>
+            <p align="right"><a class="btn btn-lg btn-primary" href="#" role="button" >
+                <span class="glyphicon glyphicon-thumbs-up"></span> Good luck</a></p>
           </div>
             <hr>
           
@@ -95,7 +118,7 @@
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
           <div class="list-group">
             
-            <a href="profile-page.html" class="list-group-item active">Your profile</a>
+            <a href="profile-page.php" class="list-group-item active">Your profile</a>
             <a href="#" class="list-group-item">Recommended Topics</a>
             <a href="#" class="list-group-item">Accomplishments</a>
             <a href="#" class="list-group-item">Relevant Links</a>
@@ -138,3 +161,6 @@
     <script src="offcanvas.js"></script>
   </body>
 </html>
+<?php
+    }
+    ?>

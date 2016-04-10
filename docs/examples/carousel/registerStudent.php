@@ -54,6 +54,7 @@
           </button>
           <a class="navbar-brand" href="index.html"><img src="images/MC_logo.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
         </div>
+          
         <div id="navbar" class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
            
@@ -167,8 +168,11 @@
   	  </div>
         <hr>
         </div>
+    
  <!-- This script scrolls page to end for registration messages to show-->
-        <script>document.body.scrollTop = document.body.scrollHeight - document.body.clientHeight;</script>
+    
+        <script>document.body.scrollTop = document.body.scrollHeight - document.body.clientHeight;
+        </script>
        
         
    <!-- FOOTER -->

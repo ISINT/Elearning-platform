@@ -51,18 +51,21 @@
                <a class="navbar-brand" href="index.html"><img src="images/MC_logo.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-        <form class="navbar-form navbar-right" action="registerStudent.html">
+            
+        <form class="navbar-form navbar-right" action="registerStudent.php">
         <button class="btn btn-primary" >Sign up</button>
         </form>
-          <form class="navbar-form navbar-right">
+            
+          <form class="navbar-form navbar-right" method="post" action="login.php" id="loginForm" name="loginForm">
             <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
+              <input type="text" placeholder="Username" id="username" name="username" class="form-control">
             </div>
             <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
+              <input type="password" placeholder="Password" id="userPassword" name="userPassword" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
+            <input type="submit" name="loginButton" id="loginButton" value="Sign in" class="btn btn-success"/>
           </form>
+            
             
         </div><!--/.navbar-collapse -->
       </div>

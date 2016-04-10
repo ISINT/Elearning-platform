@@ -12,7 +12,7 @@
         
         if (!checkUsernamePassword($username, $userPassword))
         {
-            print("Wrong username or password, try again! <br/>");
+            print("<h2>Wrong username or password, try again!</h2> <br/>");
         }
         else
         {

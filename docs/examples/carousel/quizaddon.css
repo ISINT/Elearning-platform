@@ -1,0 +1,83 @@
+
+/*Quizzzzer stylesheet*/ 
+.answers li { 
+list-style: upper-alpha; 
+} 
+
+#results { 
+background: #dddada; 
+color: 000000; 
+padding: 3px; 
+text-align: center; 
+width: 200px; 
+cursor: pointer; 
+border: 1px solid gray; 
+}
+
+#results:hover { 
+background: #3d91b8; 
+color: #ffffff; 
+padding: 3px; 
+text-align: center; 
+width: 200px; 
+cursor: pointer; 
+border: 1px solid gray; 
+} 
+
+#categorylist { 
+margin-top: 6px; 
+display: none; 
+} 
+
+#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10,
+#category11, #category12, #category13, #category14, #category15, #category16, #category17, #category18, #category19, #category20,
+#category21, #category22, #category23, #category24, #category25, #category26, #category27, #category28
+{ 
+display: none; 
+}
+
+#closing {
+display: none;
+font-style: italic;
+}
+
+
+.question {
+font-size: 100%;
+font-style: bold;
+}
+
+
+label{
+width:66px;
+height:26px;
+border-radius:9px 9px 9px 9px;
+border: 1px #3a3a3a solid;
+line-height:26.5px;
+text-align:center;
+color:black;
+font-size:20pt;
+background:white;
+position:relative;
+} 
+
+.box1 {
+background-color: #9bc2cf;
+}
+.box2 {
+background-color: #8aacb8;
+}
+.box3 {
+background-color: #7997a1;
+}
+.box4 {
+background-color: #222;
+}
+
+h3,h4 {
+	text-align: center;
+}
+
+.Biggerboxes {
+	height: 400px !important;
+}

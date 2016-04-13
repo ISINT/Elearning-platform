@@ -91,12 +91,12 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
           </div>
             <hr>
             <div class="jumbotron">
-            <a href="#"><h2>TIME</h2></a>
+            <a href="#"><h2>Addition and Subtraction</h2></a>
             <p><img class="img-rounded" src="images/clock.jpg" alt="Generic placeholder image" width="130" height="130" align="left">What is the time on the clock? What time did you wake up this morning? What time does school start everyday? Time is best learnt the fun way. Try it with Jody now!</p>
           </div>
             <hr>
             <div class="jumbotron">
-            <a href="#"><h2>ADDITION</h2></a>
+            <a href="mathtest1.php"><h2>ADDITION</h2></a>
             <p><img class="img-rounded" src="images/math2.jpeg" alt="Generic placeholder image" width="130" height="130" align="left">Now we put the numbers you learnt earlier on to use. How many balls do you see on your screen? How many balls are there alltogether if we had 5 balls and we get a further 7? </p>
           </div>
             <hr>

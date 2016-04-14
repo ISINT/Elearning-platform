@@ -211,40 +211,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
                     <input type="radio" name="q24" value="d" id="q24d" class="answers"><label for="q24d">56</label><br/>        
                   </form>       
             </div>
-          <hr size=1>
-                  <h5 class="question text-center">The figure on the picture is?</h5>
-                  <img src="images/geometry-oval.jpg" alt="Image of oval" style="width:150px;height:150px;">
-                  
-                  
-
-                  <form class="answers">     
-                    <input type="radio" name="q25" value="a" id="q25a" class="answers"><label for="q25a">Circle</label><br/>            
-                    <input type="radio" name="q25" value="b" id="q25b" class="answers"><label for="q25b">Rektangle</label><br/>            
-                    <input type="radio" name="q25" value="c" id="q25c" class="answers"><label for="q25c">Oval</label><br/>       
-                  </form> 
-
-          <hr size=1>
-                  <h5 class="question text-center">How many sides does a box have?</h5>
-                  <img src="images/geometry-box.jpg" alt="Image of box" style="width:150px;height:150px;">
-                  
-                       
-
-                  <form class="answers">           
-                    <input type="radio" name="q26" value="a" id="q26a" class="answers"><label for="q26a">6</label><br/>            
-                    <input type="radio" name="q26" value="b" id="q26b" class="answers"><label for="q26b">3</label><br/>            
-                    <input type="radio" name="q26" value="c" id="q26c" class="answers"><label for="q26c">2</label><br/>         
-                  </form>   
-
-          <hr size=1>
-                <h5 class="question text-center">How many sides does a circle have?</h5> 
-                  <img src="images/geometry-circle.jpg" alt="Image of circle" style="width:150px;height:150px;">
-            
-                  <form class="answers">           
-                    <input type="radio" name="q27" value="a" id="q27a" class="answers"><label for="q27a">1</label><br/>            
-                    <input type="radio" name="q27" value="b" id="q27b" class="answers"><label for="q27b">2</label><br/>            
-                    <input type="radio" name="q27" value="c" id="q27c" class="answers"><label for="q27c">3</label><br/>  
-                  </form>
-          </div>  
+           
       </div>
 
 <br/>

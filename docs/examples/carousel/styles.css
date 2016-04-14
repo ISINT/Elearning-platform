@@ -26,7 +26,7 @@ body {
 .carousel-caption {
   z-index: 10;
   color: white;
-  text-shadow:#777;
+  text-shadow:#4d4d4d;
 }
 
 /* Declare heights because of positioning of img element */

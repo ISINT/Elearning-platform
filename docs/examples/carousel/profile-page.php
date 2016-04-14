@@ -107,8 +107,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
             <hr>
           
           <div class="jumbotron" style="text-align:center">
-            <p style="align-center"><h2>Your Completed Topics:</h2></p>
-            <p>Topic 1<br/>Topic 2<br/>Topic 3</p>
+            <p style="align-center"><img src="images/MC_large.png" alt="Math corner image" style="width:100%"> </p>
           </div>
           
            

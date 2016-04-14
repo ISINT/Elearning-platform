@@ -86,17 +86,17 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
           </div>
             <hr>
             <div class="jumbotron">
-            <a href="#"><h2>2D AND 3D SHAPES</h2></a>
+            <a href="figuresvideo.php"><h2>2D AND 3D SHAPES</h2></a>
             <p><img class="img-rounded" src="images/shapes.jpeg" alt="Generic placeholder image" width="130" height="130" align="left">What shape is an orange? What shape is a football field? Learn all the different shapes there is with Brody and Pam and have fun with them. Shapes are fun!</p>
           </div>
             <hr>
             <div class="jumbotron">
-            <a href="#"><h2>Addition and Subtraction</h2></a>
+            <a href="mathvideo2.php"><h2>Addition and Subtraction</h2></a>
             <p><img class="img-rounded" src="images/clock.jpg" alt="Generic placeholder image" width="130" height="130" align="left">What is the time on the clock? What time did you wake up this morning? What time does school start everyday? Time is best learnt the fun way. Try it with Jody now!</p>
           </div>
             <hr>
             <div class="jumbotron">
-            <a href="mathtest1.php"><h2>ADDITION</h2></a>
+            <a href="#"><h2>ADDITION</h2></a>
             <p><img class="img-rounded" src="images/math2.jpeg" alt="Generic placeholder image" width="130" height="130" align="left">Now we put the numbers you learnt earlier on to use. How many balls do you see on your screen? How many balls are there alltogether if we had 5 balls and we get a further 7? </p>
           </div>
             <hr>
@@ -106,7 +106,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
           </div>
             <hr>
             <div class="jumbotron">
-            <a href="#"><h2>MULTIPLICATION</h2></a>
+            <a href="mathvideo1.php"><h2>MULTIPLICATION</h2></a>
             <p><img class="img-rounded" src="images/multiplication.png" alt="Generic placeholder image" width="130" height="130" align="left">If mummy gives you 2 books everyday, how many books will you have after 5 days? If you eat 5 slices of bread everyday, how many slices would you have eaten in 1 week?  </p>
           </div>
             <hr>

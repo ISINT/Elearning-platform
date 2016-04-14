@@ -126,3 +126,6 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
+<?php
+    }
+    ?>

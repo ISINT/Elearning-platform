@@ -133,8 +133,8 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
           
             <a href="profile-page.php" class="list-group-item">Your profile</a>
             <a href="#" class="list-group-item">Recommended Topics</a>
-            <a href="accomplishments.html" class="list-group-item">Accomplishments</a>
-            <a href="relevantlinks.html" class="list-group-item">Relevant Links</a>
+            <a href="accomplishments.php" class="list-group-item">Accomplishments</a>
+            <a href="relevantlinks.php" class="list-group-item">Relevant Links</a>
             <a href="http://barclayscodeplayground.co.uk/" class="list-group-item" target="_blank">Programming for kids</a>
             </br> </br>
             <div class="col-xs-14 col-sm-13 sidebar-offcanvas" id="sidebar">

@@ -52,7 +52,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/mc.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
+                    <a class="navbar-brand" href="home-page.html"><img src="images/mc.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
@@ -77,8 +77,8 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
-            <a href="#"><h2>Other e-learning websites to check out</h2></a>
-            <p><img class="img-rounded" src="images/numbers.jpg" alt="Numbers Image" width="130" height="130" align="left"> Have you finished all your courses? Take a look at these websites to earn more diplomas, and keep up your learning!<br/><br/></p>
+            <h2 style="text-align:center">Other e-learning websites to check out</h2>
+            <p> Have you finished all your topics? If you have then take a look at these websites below to learn some more!<br/><br/></p>
           </div>
             <hr>
             <div class="jumbotron">
@@ -111,10 +111,11 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
             <a href="profile-page.php" class="list-group-item">Your profile</a>
             <a href="gallery.php" class="list-group-item">Photo Gallery</a>
             <a href="accomplishments.php" class="list-group-item">Accomplishments</a>
-            <b></b><a class="active" href="relevantlinks.html" class="list-group-item">Relevant Links</a></b>
+            <a href="relevantlinks.html" class="list-group-item active">Relevant Links</a>
             <a href="http://barclayscodeplayground.co.uk/" class="list-group-item" target="_blank">Programming for kids</a>
+        </div>
             
-            <div class="col-xs-14 col-sm-13 sidebar-offcanvas" id="sidebar">
+            
               <div class="list-group-item">
               <h3 style="color: #3399ff;">NEWS FEED</h3>
                 <p style="color: black;"> We have released a new geometry topic! </br> </br>   20.03.2016</p>
@@ -122,9 +123,9 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
                 </br></br></br>
                   <p style="color: black;"> We have released a new advanced Numbers topic! </br> </br>   20.03.2016</p>
                     <a href="blog.html"> Click for more</a>
-              </div>
+        </div>
           </div><!--/.sidebar-offcanvas-->
-        
+            </div>
         
         <hr>
 
@@ -132,7 +133,16 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2016 IS/INT1000 Group 5 - Created by Frank, Henrik, Veronika, Vegar og Imen. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          <div class="navbar-text pull-right" > 
+            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+            
+          </div>
       </footer>
+
 
     </div><!--/.container-->
 

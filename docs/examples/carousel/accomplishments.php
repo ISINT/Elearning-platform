@@ -55,7 +55,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/mc.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
+                    <a class="navbar-brand" href="home-page.html"><img src="images/mc.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
@@ -80,8 +80,9 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
-            <h2 style="align:center">Congratulations!</h2>
-            <p style="align:center"><img class="img-rounded" src="images/diplom1.jpg" alt="Diplom" align="left"> <br/><br/>You have completed this topic!<br/><br/><br/><br/> You can earn more diplomas by completing more <a href="topics.html">topics</a>.</p>
+            <h1 style="text-align:center">Congratulations!</h1>
+            <p style="text-align:center"><img class="img-rounded" src="images/diplom1.jpg" alt="Certificate"> </p><br/>
+              <h3 style="text-align:center">You have completed this topic!<br/><br/> You can earn more certificates by completing more <a href="topics.html">topics</a>.</h3>
           </div>
                      
          
@@ -92,21 +93,22 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
           
             <a href="profile-page.php" class="list-group-item">Your profile</a>
             <a href="gallery.php" class="list-group-item">Photo Gallery</a>
-            <a class="active" href="accomplishments.php" class="list-group-item">Accomplishments</a>
+            <a href="accomplishments.php" class="list-group-item active">Accomplishments</a>
             <a href="relevantlinks.php" class="list-group-item">Relevant Links</a>
             <a href="http://barclayscodeplayground.co.uk/" class="list-group-item" target="_blank">Programming for kids</a>
+            </div>
             
-               <div class="col-xs-14 col-sm-13 sidebar-offcanvas" id="sidebar">
+               
               <div class="list-group-item">
-              <h3 style="color: #3399ff;">NEWS FEED</H3>
+              <h3 style="color: #3399ff;">NEWS FEED</h3>
                 <p style="color: black;"> We have released a new geometry topic! </br> </br>   20.03.2016</p>
                   <a href="blog.html"> Click for more</a>
                 </br></br></br>
                   <p style="color: black;"> We have released a new Numbers topic! </br> </br>   20.03.2016</p>
                     <a href="blog.html"> Click for more</a>
 
-              </div>
-            </div>
+             
+           
           </div>
         </div><!--/.sidebar-offcanvas-->
         </div><!--/row-->

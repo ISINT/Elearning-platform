@@ -103,21 +103,15 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
     ?>
             <p align="right"><a class="btn btn-lg btn-primary" href="#" role="button" >
                 <span class="glyphicon glyphicon-thumbs-up"></span> Good luck</a></p>
+                <p style="align-center"><img src="images/MC_large.png" alt="Math corner image" style="width:100%"> </p>
           </div>
-            <hr>
-          
-          <div class="jumbotron" style="text-align:center">
-            <p style="align-center"><img src="images/MC_large.png" alt="Math corner image" style="width:100%"> </p>
-          </div>
-          
-           
          
         </div><!--/.col-xs-12.col-sm-9-->
 
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
           <div class="list-group">
             
-            <a class="active" href="profile-page.php" class="list-group-item active">Your profile</a>
+            <a href="profile-page.php" class="list-group-item active">Your profile</a>
             <a href="gallery.php" class="list-group-item">Photo Gallery</a>
             <a href="accomplishments.php" class="list-group-item">Accomplishments</a>
             <a href="relevantlinks.php" class="list-group-item">Relevant Links</a>

@@ -87,129 +87,129 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
         <div class="cover-container">
 
           <div class="inner cover">
-          <h3 class="masthead-brand">Multiplication</h3>
+          <h3 class="masthead-brand">Division</h3>
           <div class="row">
             <div class="col-sm-4 box1">
-             <h3>Multiplication</h3>
+             <h3>Division</h3>
               <h4>Level 1</h4>
-                <h5 class="question text-center"> What is 3 multiplied with 5</h5>        
+                <h5 class="question text-center"> What is 15 Divided with 3</h5>        
                 <form class="answears">            
-                  <input type="radio" name="q1" value="a" id="q1a" class="answers"><label for="q1a"> 15</label></br>        
-                  <input type="radio" name="q1" value="b" id="q1b" class="answers"><label for="q1b"> 20</label></br>           
-                  <input type="radio" name="q1" value="c" id="q1c" class="answers"><label for="q1c"> 35</label></br>           
-                  <input type="radio" name="q1" value="d" id="q1d" class="answers"><label for="q1d"> 5</label></br>     
+                  <input type="radio" name="q1" value="a" id="q1a" class="answers"><label for="q1a"> 5</label></br>        
+                  <input type="radio" name="q1" value="b" id="q1b" class="answers"><label for="q1b"> 45</label></br>           
+                  <input type="radio" name="q1" value="c" id="q1c" class="answers"><label for="q1c"> 0</label></br>           
+                  <input type="radio" name="q1" value="d" id="q1d" class="answers"><label for="q1d"> 15</label></br>     
                 </form> 
               <hr size=1>
-                <h5 class="question text-center">What is 9 multiplied with 0</h5>        
+                <h5 class="question text-center">What is 8 Divided with 2</h5>        
 
                 <form class="answears">            
-                  <input type="radio" name="q2" value="a" id="q2a" class="answers"><label for="q2a">9</label></br>           
-                  <input type="radio" name="q2" value="b" id="q2b" class="answers"><label for="q2b">0</label></br>            
-                  <input type="radio" name="q2" value="c" id="q2c" class="answers"><label for="q2c">09</label></br>           
-                  <input type="radio" name="q2" value="d" id="q2d" class="answers"><label for="q2d">90</label></br>      
+                  <input type="radio" name="q2" value="a" id="q2a" class="answers"><label for="q2a">7</label></br>           
+                  <input type="radio" name="q2" value="b" id="q2b" class="answers"><label for="q2b">4</label></br>            
+                  <input type="radio" name="q2" value="c" id="q2c" class="answers"><label for="q2c">8</label></br>           
+                  <input type="radio" name="q2" value="d" id="q2d" class="answers"><label for="q2d">16</label></br>      
                 </form>      
               <hr size=1>
-                <h5 class="question text-center">What is 5 multiplied with 5</h5>        
+                <h5 class="question text-center">What is 25 Divided with 5</h5>        
 
                 <form class="answers">            
-                  <input type="radio" name="q3" value="a" id="q3a" class="answers"><label for="q3a">20</label><br/>            
-                  <input type="radio" name="q3" value="b" id="q3b" class="answers"><label for="q3b">15</label><br/>            
-                  <input type="radio" name="q3" value="c" id="q3c" class="answers"><label for="q3c">25</label><br/>           
+                  <input type="radio" name="q3" value="a" id="q3a" class="answers"><label for="q3a">15</label><br/>            
+                  <input type="radio" name="q3" value="b" id="q3b" class="answers"><label for="q3b">25</label><br/>            
+                  <input type="radio" name="q3" value="c" id="q3c" class="answers"><label for="q3c">5</label><br/>           
                   <input type="radio" name="q3" value="d" id="q3d" class="answers"><label for="q3d">55</label><br/>       
                 </form>  
               <hr size=1>
-                <h5 class="question text-center">What is 7 multiplied with 1</h5>        
+                <h5 class="question text-center">What is 100 Divided with 100</h5>        
                 
                 <form class="answers">           
-                  <input type="radio" name="q4" value="a" id="q4a" class="answers"><label for="q4a">70</label><br/>            
+                  <input type="radio" name="q4" value="a" id="q4a" class="answers"><label for="q4a">1</label><br/>            
                   <input type="radio" name="q4" value="b" id="q4b" class="answers"><label for="q4b">0</label><br/>            
-                  <input type="radio" name="q4" value="c" id="q4c" class="answers"><label for="q4c">71</label><br/>            
-                  <input type="radio" name="q4" value="d" id="q4d" class="answers"><label for="q4d">7</label><br/>        
+                  <input type="radio" name="q4" value="c" id="q4c" class="answers"><label for="q4c">100</label><br/>            
+                  <input type="radio" name="q4" value="d" id="q4d" class="answers"><label for="q4d">10</label><br/>        
                 </form>
             </div>
                 
 
           
            <div class="col-sm-4 box2">
-           <h3>Multiplication</h3>
+           <h3>Division</h3>
             <h4>Level 2</h4>
-              <h5 class="question text-center">What is 10 multiplied with 10</h5>        
+              <h5 class="question text-center">What is 16 Divided with 8</h5>        
 
               <form class="answers">            
                 <input type="radio" name="q5" value="a" id="q5a" class="answers"><label for="q5a">100</label><br/>            
                 <input type="radio" name="q5" value="b" id="q5b" class="answers"><label for="q5b">10</label><br/>            
                 <input type="radio" name="q5" value="c" id="q5c" class="answers"><label for="q5c">0</label><br/>           
-                <input type="radio" name="q5" value="d" id="q5d" class="answers"><label for="q5d">1000</label><br/>        
+                <input type="radio" name="q5" value="d" id="q5d" class="answers"><label for="q5d">2</label><br/>        
               </form>        
             <hr size=1>
-              <h5 class="question text-center">What is 15 multiplied with 5</h5>        
+              <h5 class="question text-center">What is 24 Divided with 12</h5>        
 
               <form class="answers">            
-                <input type="radio" name="q6" value="a" id="q6a" class="answers"><label for="q6a">15</label><br/>            
-                <input type="radio" name="q6" value="b" id="q6b" class="answers"><label for="q6b">75</label><br/>            
-                <input type="radio" name="q6" value="c" id="q6c" class="answers"><label for="q6c">150</label><br/>            
-                <input type="radio" name="q6" value="d" id="q6d" class="answers"><label for="q6d">0</label><br/>        
+                <input type="radio" name="q6" value="a" id="q6a" class="answers"><label for="q6a">1</label><br/>            
+                <input type="radio" name="q6" value="b" id="q6b" class="answers"><label for="q6b">4</label><br/>            
+                <input type="radio" name="q6" value="c" id="q6c" class="answers"><label for="q6c">3</label><br/>            
+                <input type="radio" name="q6" value="d" id="q6d" class="answers"><label for="q6d">2</label><br/>        
               </form>       
             <hr size=1>
-              <h5 class="question text-center">What is 64 multiplied with 0</h5>        
+              <h5 class="question text-center">What is 2 Divided with 1</h5>        
 
               <form class="answers">            
-                <input type="radio" name="q7" value="a" id="q7a" class="answers"><label for="q7a">64</label><br/>            
+                <input type="radio" name="q7" value="a" id="q7a" class="answers"><label for="q7a">2</label><br/>            
                 <input type="radio" name="q7" value="b" id="q7b" class="answers"><label for="q7b">1</label><br/>            
                 <input type="radio" name="q7" value="c" id="q7c" class="answers"><label for="q7c">0</label><br/>            
-                <input type="radio" name="q7" value="d" id="q7d" class="answers"><label for="q7d">640</label><br/>        
+                <input type="radio" name="q7" value="d" id="q7d" class="answers"><label for="q7d">4</label><br/>        
               </form>        
             <hr size=1>
-              <h5 class="question text-center">What is 11 multiplied with 3</h5>        
+              <h5 class="question text-center">What is 50 Divided with 5</h5>        
 
               <form class="answers">            
-                <input type="radio" name="q8" value="a" id="q8a" class="answers"><label for="q8a">31</label><br/>            
-                <input type="radio" name="q8" value="b" id="q8b" class="answers"><label for="q8b">14</label><br/>            
-                <input type="radio" name="q8" value="c" id="q8c" class="answers"><label for="q8c">32</label><br/>            
-                <input type="radio" name="q8" value="d" id="q8d" class="answers"><label for="q8d">33</label><br/>       
+                <input type="radio" name="q8" value="a" id="q8a" class="answers"><label for="q8a">20</label><br/>            
+                <input type="radio" name="q8" value="b" id="q8b" class="answers"><label for="q8b">10</label><br/>            
+                <input type="radio" name="q8" value="c" id="q8c" class="answers"><label for="q8c">30</label><br/>            
+                <input type="radio" name="q8" value="d" id="q8d" class="answers"><label for="q8d">40</label><br/>       
               </form>
             </div>
           
        
          <div class="col-sm-4 box3">
         
-          <h3>Multiplication</h3>
+          <h3>Division</h3>
             <h4>Level 3</h4>
-              <h5 class="question text-center">What is 4 multiplied with 67</h5>        
+              <h5 class="question text-center">What is 125 Divided with 25</h5>        
 
               <form class="answers">            
-                <input type="radio" name="q9" value="a" id="q9a" class="answers"><label for="q9a">268</label><br/>            
-                <input type="radio" name="q9" value="b" id="q9b" class="answers"><label for="q9b">276</label><br/>            
-                <input type="radio" name="q9" value="c" id="q9c" class="answers"><label for="q9c">278</label><br/>            
-                <input type="radio" name="q9" value="d" id="q9d" class="answers"><label for="q9d">264</label><br/>        
+                <input type="radio" name="q9" value="a" id="q9a" class="answers"><label for="q9a">5</label><br/>            
+                <input type="radio" name="q9" value="b" id="q9b" class="answers"><label for="q9b">6</label><br/>            
+                <input type="radio" name="q9" value="c" id="q9c" class="answers"><label for="q9c">4</label><br/>            
+                <input type="radio" name="q9" value="d" id="q9d" class="answers"><label for="q9d">10</label><br/>        
               </form>        
             <hr size=1>
-              <h5 class="question text-center">What is 11 multiplied with 14</h5>        
+              <h5 class="question text-center">What is 100 Divided with 20</h5>        
 
               <form class="answers">           
-                <input type="radio" name="q10" value="a" id="q10a" class="answers"><label for="q10a">145</label></br>           
-                <input type="radio" name="q10" value="b" id="q10b" class="answers"><label for="q10b">154</label></br>           
-                <input type="radio" name="q10" value="c" id="q10c" class="answers"><label for="q10c">514</label></br>           
-                <input type="radio" name="q10" value="d" id="q10d" class="answers"><label for="q10d">451</label></br>        
+                <input type="radio" name="q10" value="a" id="q10a" class="answers"><label for="q10a">4</label></br>           
+                <input type="radio" name="q10" value="b" id="q10b" class="answers"><label for="q10b">5</label></br>           
+                <input type="radio" name="q10" value="c" id="q10c" class="answers"><label for="q10c">6</label></br>           
+                <input type="radio" name="q10" value="d" id="q10d" class="answers"><label for="q10d">7</label></br>        
               </form>        
             <hr size=1>
-              <h5 class="question text-center">What is 50 multiplied with 9</h5>        
+              <h5 class="question text-center">What is 200 Divided with 50</h5>        
 
               <form class="answers">           
-                <input type="radio" name="q11" value="a" id="q11a" class="answers"><label for="q11a">450</label></br>            
-                <input type="radio" name="q11" value="b" id="q11b" class="answers"><label for="q11b">350</label></br>            
-                <input type="radio" name="q11" value="c" id="q11c" class="answers"><label for="q11c">500</label></br>           
-                <input type="radio" name="q11" value="d" id="q11d" class="answers"><label for="q11d">509</label></br>        
+                <input type="radio" name="q11" value="a" id="q11a" class="answers"><label for="q11a">4</label></br>            
+                <input type="radio" name="q11" value="b" id="q11b" class="answers"><label for="q11b">6</label></br>            
+                <input type="radio" name="q11" value="c" id="q11c" class="answers"><label for="q11c">2</label></br>           
+                <input type="radio" name="q11" value="d" id="q11d" class="answers"><label for="q11d">8</label></br>        
               </form> 
                     
             <hr size=1>
-              <h5 class="question text-center">What is 40 multiplied with 4</h5>        
+              <h5 class="question text-center">What is 65 Divided with 5</h5>        
             
               <form class="answers">           
-                <input type="radio" name="q12" value="a" id="q12a" class="answers"><label for="q12a">108</label><br/>            
-                <input type="radio" name="q12" value="b" id="q12b" class="answers"><label for="q12b">180</label><br/>            
-                <input type="radio" name="q12" value="c" id="q12c" class="answers"><label for="q12c">120</label><br/>            
-                <input type="radio" name="q12" value="d" id="q12d" class="answers"><label for="q12d">160</label><br/>        
+                <input type="radio" name="q12" value="a" id="q12a" class="answers"><label for="q12a">16</label><br/>            
+                <input type="radio" name="q12" value="b" id="q12b" class="answers"><label for="q12b">15</label><br/>            
+                <input type="radio" name="q12" value="c" id="q12c" class="answers"><label for="q12c">12</label><br/>            
+                <input type="radio" name="q12" value="d" id="q12d" class="answers"><label for="q12d">13</label><br/>        
               </form>
             </div> 
           </div>  
@@ -288,7 +288,7 @@ Alle er korrekte!</p>
 </div>
 
 <script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="quiz-1.js"></script>
+<script type="text/javascript" src="quiz-5.js"></script>
 
 
 </div>

@@ -1,3 +1,15 @@
+<?php 
+
+session_start();
+@$loggedInnUser=$_SESSION["username"];
+
+  if (!$loggedInnUser)
+  {
+print("<h2>Log in is required to access this page!</h2> <br/>");
+  }
+  else
+  {
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -75,129 +87,129 @@
         <div class="cover-container">
 
           <div class="inner cover">
-          <h3 class="masthead-brand">Addition and Subtraction</h3>
+          <h3 class="masthead-brand">Decimals</h3>
           <div class="row">
             <div class="col-sm-4 box1">
-             <h3>Multiplication</h3>
+             <h3>decimals</h3>
               <h4>Level 1</h4>
-                <h5 class="question text-center"> What is 3 multiplied with 5</h5>        
+                <h5 class="question text-center"> What is 3,5 + 5,5</h5>        
                 <form class="answears">            
-                  <input type="radio" name="q1" value="a" id="q1a" class="answers"><label for="q1a"> 15</label></br>        
-                  <input type="radio" name="q1" value="b" id="q1b" class="answers"><label for="q1b"> 20</label></br>           
-                  <input type="radio" name="q1" value="c" id="q1c" class="answers"><label for="q1c"> 35</label></br>           
-                  <input type="radio" name="q1" value="d" id="q1d" class="answers"><label for="q1d"> 5</label></br>     
+                  <input type="radio" name="q1" value="a" id="q1a" class="answers"><label for="q1a"> 9,1</label></br>        
+                  <input type="radio" name="q1" value="b" id="q1b" class="answers"><label for="q1b"> 9</label></br>           
+                  <input type="radio" name="q1" value="c" id="q1c" class="answers"><label for="q1c"> 8,9</label></br>           
+                  <input type="radio" name="q1" value="d" id="q1d" class="answers"><label for="q1d"> 8,6</label></br>     
                 </form> 
               <hr size=1>
-                <h5 class="question text-center">What is 9 multiplied with 0</h5>        
+                <h5 class="question text-center">What is 9,2 + 1,9</h5>        
 
                 <form class="answears">            
-                  <input type="radio" name="q2" value="a" id="q2a" class="answers"><label for="q2a">9</label></br>           
-                  <input type="radio" name="q2" value="b" id="q2b" class="answers"><label for="q2b">0</label></br>            
-                  <input type="radio" name="q2" value="c" id="q2c" class="answers"><label for="q2c">09</label></br>           
-                  <input type="radio" name="q2" value="d" id="q2d" class="answers"><label for="q2d">90</label></br>      
+                  <input type="radio" name="q2" value="a" id="q2a" class="answers"><label for="q2a">11,1</label></br>           
+                  <input type="radio" name="q2" value="b" id="q2b" class="answers"><label for="q2b">11,2</label></br>            
+                  <input type="radio" name="q2" value="c" id="q2c" class="answers"><label for="q2c">11,0</label></br>           
+                  <input type="radio" name="q2" value="d" id="q2d" class="answers"><label for="q2d">10,9</label></br>      
                 </form>      
               <hr size=1>
-                <h5 class="question text-center">What is 5 multiplied with 5</h5>        
+                <h5 class="question text-center">What is 5,2 + 5,3</h5>        
 
                 <form class="answers">            
-                  <input type="radio" name="q3" value="a" id="q3a" class="answers"><label for="q3a">20</label><br/>            
-                  <input type="radio" name="q3" value="b" id="q3b" class="answers"><label for="q3b">15</label><br/>            
-                  <input type="radio" name="q3" value="c" id="q3c" class="answers"><label for="q3c">25</label><br/>           
-                  <input type="radio" name="q3" value="d" id="q3d" class="answers"><label for="q3d">55</label><br/>       
+                  <input type="radio" name="q3" value="a" id="q3a" class="answers"><label for="q3a">10,4</label><br/>            
+                  <input type="radio" name="q3" value="b" id="q3b" class="answers"><label for="q3b">10,5</label><br/>            
+                  <input type="radio" name="q3" value="c" id="q3c" class="answers"><label for="q3c">10,6</label><br/>           
+                  <input type="radio" name="q3" value="d" id="q3d" class="answers"><label for="q3d">10,7</label><br/>       
                 </form>  
               <hr size=1>
-                <h5 class="question text-center">What is 7 multiplied with 1</h5>        
+                <h5 class="question text-center">What is 7,5 + 1,9</h5>        
                 
                 <form class="answers">           
-                  <input type="radio" name="q4" value="a" id="q4a" class="answers"><label for="q4a">70</label><br/>            
-                  <input type="radio" name="q4" value="b" id="q4b" class="answers"><label for="q4b">0</label><br/>            
-                  <input type="radio" name="q4" value="c" id="q4c" class="answers"><label for="q4c">71</label><br/>            
-                  <input type="radio" name="q4" value="d" id="q4d" class="answers"><label for="q4d">7</label><br/>        
+                  <input type="radio" name="q4" value="a" id="q4a" class="answers"><label for="q4a">0,3</label><br/>            
+                  <input type="radio" name="q4" value="b" id="q4b" class="answers"><label for="q4b">9,6</label><br/>            
+                  <input type="radio" name="q4" value="c" id="q4c" class="answers"><label for="q4c">9,5</label><br/>            
+                  <input type="radio" name="q4" value="d" id="q4d" class="answers"><label for="q4d">9,4</label><br/>        
                 </form>
             </div>
                 
 
           
            <div class="col-sm-4 box2">
-           <h3>Multiplication</h3>
+           <h3>decimals</h3>
             <h4>Level 2</h4>
-              <h5 class="question text-center">What is 10 multiplied with 10</h5>        
+              <h5 class="question text-center">What is 10,1 - 10,0</h5>        
 
               <form class="answers">            
-                <input type="radio" name="q5" value="a" id="q5a" class="answers"><label for="q5a">100</label><br/>            
-                <input type="radio" name="q5" value="b" id="q5b" class="answers"><label for="q5b">10</label><br/>            
-                <input type="radio" name="q5" value="c" id="q5c" class="answers"><label for="q5c">0</label><br/>           
-                <input type="radio" name="q5" value="d" id="q5d" class="answers"><label for="q5d">1000</label><br/>        
+                <input type="radio" name="q5" value="a" id="q5a" class="answers"><label for="q5a">1,1</label><br/>            
+                <input type="radio" name="q5" value="b" id="q5b" class="answers"><label for="q5b">1</label><br/>            
+                <input type="radio" name="q5" value="c" id="q5c" class="answers"><label for="q5c">0,1</label><br/>           
+                <input type="radio" name="q5" value="d" id="q5d" class="answers"><label for="q5d">0,11</label><br/>        
               </form>        
             <hr size=1>
-              <h5 class="question text-center">What is 15 multiplied with 5</h5>        
+              <h5 class="question text-center">What is 15,3 - 5,5</h5>        
 
               <form class="answers">            
-                <input type="radio" name="q6" value="a" id="q6a" class="answers"><label for="q6a">15</label><br/>            
-                <input type="radio" name="q6" value="b" id="q6b" class="answers"><label for="q6b">30</label><br/>            
-                <input type="radio" name="q6" value="c" id="q6c" class="answers"><label for="q6c">150</label><br/>            
-                <input type="radio" name="q6" value="d" id="q6d" class="answers"><label for="q6d">0</label><br/>        
+                <input type="radio" name="q6" value="a" id="q6a" class="answers"><label for="q6a">10,5</label><br/>            
+                <input type="radio" name="q6" value="b" id="q6b" class="answers"><label for="q6b">9,8</label><br/>            
+                <input type="radio" name="q6" value="c" id="q6c" class="answers"><label for="q6c">9,5</label><br/>            
+                <input type="radio" name="q6" value="d" id="q6d" class="answers"><label for="q6d">10,4</label><br/>        
               </form>       
             <hr size=1>
-              <h5 class="question text-center">What is 64 multiplied with 0</h5>        
+              <h5 class="question text-center">What is 64,8 - 0,5</h5>        
 
               <form class="answers">            
-                <input type="radio" name="q7" value="a" id="q7a" class="answers"><label for="q7a">64</label><br/>            
-                <input type="radio" name="q7" value="b" id="q7b" class="answers"><label for="q7b">1</label><br/>            
-                <input type="radio" name="q7" value="c" id="q7c" class="answers"><label for="q7c">0</label><br/>            
-                <input type="radio" name="q7" value="d" id="q7d" class="answers"><label for="q7d">640</label><br/>        
+                <input type="radio" name="q7" value="a" id="q7a" class="answers"><label for="q7a">64,1</label><br/>            
+                <input type="radio" name="q7" value="b" id="q7b" class="answers"><label for="q7b">64,2</label><br/>            
+                <input type="radio" name="q7" value="c" id="q7c" class="answers"><label for="q7c">64,3</label><br/>            
+                <input type="radio" name="q7" value="d" id="q7d" class="answers"><label for="q7d">64,4</label><br/>        
               </form>        
             <hr size=1>
-              <h5 class="question text-center">What is 11 multiplied with 3</h5>        
+              <h5 class="question text-center">What is 11,1 - 3,4</h5>        
 
               <form class="answers">            
-                <input type="radio" name="q8" value="a" id="q8a" class="answers"><label for="q8a">31</label><br/>            
-                <input type="radio" name="q8" value="b" id="q8b" class="answers"><label for="q8b">14</label><br/>            
-                <input type="radio" name="q8" value="c" id="q8c" class="answers"><label for="q8c">32</label><br/>            
-                <input type="radio" name="q8" value="d" id="q8d" class="answers"><label for="q8d">33</label><br/>       
+                <input type="radio" name="q8" value="a" id="q8a" class="answers"><label for="q8a">7,7</label><br/>            
+                <input type="radio" name="q8" value="b" id="q8b" class="answers"><label for="q8b">7,2</label><br/>            
+                <input type="radio" name="q8" value="c" id="q8c" class="answers"><label for="q8c">7,3</label><br/>            
+                <input type="radio" name="q8" value="d" id="q8d" class="answers"><label for="q8d">7,6</label><br/>       
               </form>
             </div>
           
        
          <div class="col-sm-4 box3">
         
-          <h3>Multiplication</h3>
+          <h3>decimals</h3>
             <h4>Level 3</h4>
-              <h5 class="question text-center">What is 4 multiplied with 67</h5>        
+              <h5 class="question text-center">What is 2,2 + 67,8</h5>        
 
               <form class="answers">            
-                <input type="radio" name="q9" value="a" id="q9a" class="answers"><label for="q9a">268</label><br/>            
-                <input type="radio" name="q9" value="b" id="q9b" class="answers"><label for="q9b">276</label><br/>            
-                <input type="radio" name="q9" value="c" id="q9c" class="answers"><label for="q9c">278</label><br/>            
-                <input type="radio" name="q9" value="d" id="q9d" class="answers"><label for="q9d">264</label><br/>        
+                <input type="radio" name="q9" value="a" id="q9a" class="answers"><label for="q9a">70,2</label><br/>            
+                <input type="radio" name="q9" value="b" id="q9b" class="answers"><label for="q9b">70,8</label><br/>            
+                <input type="radio" name="q9" value="c" id="q9c" class="answers"><label for="q9c">70</label><br/>            
+                <input type="radio" name="q9" value="d" id="q9d" class="answers"><label for="q9d">70,1</label><br/>        
               </form>        
             <hr size=1>
-              <h5 class="question text-center">What is 11 multiplied with 14</h5>        
+              <h5 class="question text-center">What is 10,1 + 14,9</h5>        
 
               <form class="answers">           
-                <input type="radio" name="q10" value="a" id="q10a" class="answers"><label for="q10a">145</label></br>           
-                <input type="radio" name="q10" value="b" id="q10b" class="answers"><label for="q10b">154</label></br>           
-                <input type="radio" name="q10" value="c" id="q10c" class="answers"><label for="q10c">514</label></br>           
-                <input type="radio" name="q10" value="d" id="q10d" class="answers"><label for="q10d">451</label></br>        
+                <input type="radio" name="q10" value="a" id="q10a" class="answers"><label for="q10a">25,1</label></br>           
+                <input type="radio" name="q10" value="b" id="q10b" class="answers"><label for="q10b">24</label></br>           
+                <input type="radio" name="q10" value="c" id="q10c" class="answers"><label for="q10c">26</label></br>           
+                <input type="radio" name="q10" value="d" id="q10d" class="answers"><label for="q10d">25</label></br>        
               </form>        
             <hr size=1>
-              <h5 class="question text-center">What is 50 multiplied with 9</h5>        
+              <h5 class="question text-center">What is 50 - 0,9</h5>        
 
               <form class="answers">           
-                <input type="radio" name="q11" value="a" id="q11a" class="answers"><label for="q11a">450</label></br>            
-                <input type="radio" name="q11" value="b" id="q11b" class="answers"><label for="q11b">350</label></br>            
-                <input type="radio" name="q11" value="c" id="q11c" class="answers"><label for="q11c">500</label></br>           
-                <input type="radio" name="q11" value="d" id="q11d" class="answers"><label for="q11d">509</label></br>        
+                <input type="radio" name="q11" value="a" id="q11a" class="answers"><label for="q11a">50,9</label></br>            
+                <input type="radio" name="q11" value="b" id="q11b" class="answers"><label for="q11b">50,09</label></br>            
+                <input type="radio" name="q11" value="c" id="q11c" class="answers"><label for="q11c">59,0</label></br>           
+                <input type="radio" name="q11" value="d" id="q11d" class="answers"><label for="q11d">50,1</label></br>        
               </form> 
                     
             <hr size=1>
-              <h5 class="question text-center">What is 40 multiplied with 4</h5>        
+              <h5 class="question text-center">What is 40,3 + 4,53</h5>        
             
               <form class="answers">           
-                <input type="radio" name="q12" value="a" id="q12a" class="answers"><label for="q12a">108</label><br/>            
-                <input type="radio" name="q12" value="b" id="q12b" class="answers"><label for="q12b">180</label><br/>            
-                <input type="radio" name="q12" value="c" id="q12c" class="answers"><label for="q12c">120</label><br/>            
-                <input type="radio" name="q12" value="d" id="q12d" class="answers"><label for="q12d">160</label><br/>        
+                <input type="radio" name="q12" value="a" id="q12a" class="answers"><label for="q12a">44,82</label><br/>            
+                <input type="radio" name="q12" value="b" id="q12b" class="answers"><label for="q12b">44,63</label><br/>            
+                <input type="radio" name="q12" value="c" id="q12c" class="answers"><label for="q12c">44,77</label><br/>            
+                <input type="radio" name="q12" value="d" id="q12d" class="answers"><label for="q12d">44,83</label><br/>        
               </form>
             </div> 
           </div>  
@@ -276,7 +288,7 @@ Alle er korrekte!</p>
 </div>
 
 <script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="quiz-1.js"></script>
+<script type="text/javascript" src="quiz-6.js"></script>
 
 
 </div>
@@ -303,3 +315,6 @@ Alle er korrekte!</p>
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
+<?php
+    }
+    ?>

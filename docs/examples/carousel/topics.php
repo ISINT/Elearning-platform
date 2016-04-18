@@ -80,11 +80,6 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
           <p class="pull-right visible-xs">
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
-          <div class="jumbotron">
-            <a href="#"><h2>NUMBERS</h2></a>
-            <p><img class="img-rounded" src="images/numbers.jpg" alt="Generic placeholder image" width="130" height="130" align="left"> Learn Numbers with Bernie. Bernie is counting the pennies in her piggy bank. She is counting them in piles of ten. She has four piles of ten coins and five remaining.</p>
-          </div>
-            <hr>
             <div class="jumbotron">
             <a href="figuresvideo.php"><h2>2D AND 3D SHAPES</h2></a>
             <p><img class="img-rounded" src="images/shapes.jpeg" alt="Generic placeholder image" width="130" height="130" align="left">What shape is an orange? What shape is a football field? Learn all the different shapes there is with Brody and Pam and have fun with them. Shapes are fun!</p>
@@ -96,32 +91,22 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
           </div>
             <hr>
             <div class="jumbotron">
-            <a href="#"><h2>ADDITION</h2></a>
-            <p><img class="img-rounded" src="images/math2.jpeg" alt="Generic placeholder image" width="130" height="130" align="left">Now we put the numbers you learnt earlier on to use. How many balls do you see on your screen? How many balls are there alltogether if we had 5 balls and we get a further 7? </p>
-          </div>
-            <hr>
-            <div class="jumbotron">
-            <a href="#"><h2>SUBTRACTION</h2></a>
-            <p><img class="img-rounded" src="images/math3.jpg" alt="Generic placeholder image" width="130" height="130" align="left">We are going to learn subtraction using the take away song. Take 4 away from 10, what number do you get? Let's learn to subtract with the take away song. It will be so much fun.</p>
-          </div>
-            <hr>
-            <div class="jumbotron">
             <a href="mathvideo1.php"><h2>MULTIPLICATION</h2></a>
             <p><img class="img-rounded" src="images/multiplication.png" alt="Generic placeholder image" width="130" height="130" align="left">If mummy gives you 2 books everyday, how many books will you have after 5 days? If you eat 5 slices of bread everyday, how many slices would you have eaten in 1 week?  </p>
           </div>
             <hr>
             <div class="jumbotron">
-            <a href="#"><h2>DIVISION</h2></a>
+            <a href="mathvideo5.php"><h2>DIVISION</h2></a>
             <p><img class="img-rounded" src="images/division.png" alt="Generic placeholder image" width="130" height="130" align="left">Watch 3 kids share 30 red balls  and 12 yellow balls. How many balls will they get each? How many slices of cake will you get if 10 slices are to be shared by you and 4 other kids?</p>
           </div>
             <hr>
             <div class="jumbotron">
-            <a href="#"><h2>DECIMALS</h2></a>
+            <a href="mathvideo6.php"><h2>DECIMALS</h2></a>
             <p><img class="img-rounded" src="images/Decimals.jpg" alt="Generic placeholder image" width="130" height="130" align="left">Decimal numbers are 2 or more numbers with a dot in between. How do you read decimal numbers correctly? Lets learn about decimal numbers.</p>
           </div>
             <hr>
             <div class="jumbotron">
-            <a href="#"><h2>FRACTIONS</h2></a>
+            <a href="mathvideo7.php"><h2>FRACTIONS</h2></a>
             <p><img class="img-rounded" src="images/fractions.jpg" alt="Generic placeholder image" width="130" height="130" align="left">Divide an orange into 4 and take 1 portion from the 4, what fraction is that? If you divide a pizza into 6 and you eat 3, what fraction have you eaten?</p>
           </div>
           

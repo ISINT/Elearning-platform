@@ -62,7 +62,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
           <ul class="nav navbar-nav">
             <li class="active"><a href="topics.php">Topics</a></li>
             <li><a href="about-us.php">About us</a></li>
-            <li><a href="contactUs.php">Contact us</a></li>
+            <li><a href="contact-us.php">Contact us</a></li>
           </ul>
              <form class="navbar-form navbar-right" action="logout.php">
         <button class="btn btn-primary" >Log out</button>

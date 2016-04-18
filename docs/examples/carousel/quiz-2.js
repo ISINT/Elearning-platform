@@ -82,7 +82,7 @@ if (cat21) { $("#category21").show("slow"); };
 if (cat22) { $("#category22").show("slow"); };           
 if (cat23) { $("#category23").show("slow"); };           
 if (cat24) { $("#category24").show("slow"); };           
-if (cat28) { $("#category28").show("slow"); };
+if (cat28) { $("#category28").show("slow"); print("<META HTTP-EQUIV='Refresh' CONTENT='0;URL=accomplishments.php'>"); };
 { $("#closing").show("slow"); };
 }
     });});

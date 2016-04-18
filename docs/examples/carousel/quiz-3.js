@@ -38,7 +38,7 @@ $("#categorylist").show("slow");
 if (cat25) { $("#category25").show("slow"); };           
 if (cat26) { $("#category26").show("slow"); };           
 if (cat27) { $("#category27").show("slow"); };           
-if (cat28) { $("#category28").show("slow"); };
+if (cat28) { $("#category28").show("slow"); print("<META HTTP-EQUIV='Refresh' CONTENT='0;URL=accomplishments.php'>"); };
 { $("#closing").show("slow"); };
 }
     });});

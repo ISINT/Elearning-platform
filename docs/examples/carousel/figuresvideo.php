@@ -90,7 +90,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
               <p class="lead">
               <p class="lead">Are you ready to take the test about Multiplication, click the button below </p><br/>
               <p class="lead">Have Pen and paper ready! </p><br/>
-               <a href="mathtest1.php" class="btn btn-lg btn-success">Take the basic test</a>
+               <a href="figures.php" class="btn btn-lg btn-success">Take the basic test</a>
           <!-- <a href="mathtest2.html" class="btn btn-lg btn-danger">Take the harder test</a> --> 
               </p>
             </div>

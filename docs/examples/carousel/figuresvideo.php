@@ -10,7 +10,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
   else
   {
 ?>
-
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -21,11 +21,12 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Maths Topics</title>
+    <title>Multiplication</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
       
+        
     <!-- Font Awesome core css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -33,7 +34,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="offcanvas.css" rel="stylesheet">
+    <link href="quizaddon.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -56,21 +57,23 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-                <a class="navbar-brand" href="home-page.html"><img src="images/MC_logo.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
+         <a class="navbar-brand" href="home-page.html"><img src="images/MC_logo.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="topics.php">Topics</a></li>
+            <li><a href="topics.php">Topics</a></li>
             <li><a href="about-us.php">About us</a></li>
-            <li><a href="contact-us.php">Contact us</a></li>
+            <li><a href="contactUs.php">Contact us</a></li>
           </ul>
-             <form class="navbar-form navbar-right" action="logout.php">
+            <form class="navbar-form navbar-right" action="logout.php">
         <button class="btn btn-primary" >Log out</button>
         </form>
+            
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
     </nav><!-- /.navbar -->
-    
+     <!-- NAVBAR SLUTT
+================================================== -->  
       <body>
          
       <div class="container">

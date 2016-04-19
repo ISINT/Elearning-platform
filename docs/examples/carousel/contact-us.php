@@ -1,14 +1,6 @@
 <?php 
 
-session_start();
-@$loggedInnUser=$_SESSION["username"];
 
-  if (!$loggedInnUser)
-  {
-print("<h2>Log in is required to access this page!</h2> <br/>");
-  }
-  else
-  {
 ?>
 
 <!DOCTYPE html>
@@ -199,5 +191,4 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
   </body>
 </html>
 <?php
-}
 ?>

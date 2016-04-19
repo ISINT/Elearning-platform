@@ -71,7 +71,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
     </nav><!-- /.navbar -->
-            
+<br/>
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
@@ -80,8 +80,8 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
 
           <div class="inner cover">
           <h3 class="masthead-brand">Addition and Subtraction</h3>
-          <div class="row">
-          <div class="col-sm-12 box4">
+    <div class="row">
+      <div class="col-sm-12 box4">
           <h3>Addition and Subtraction</h3>
             <h4>Level 1</h4>
           </div>
@@ -146,6 +146,7 @@ Show me the answers
 <div id="category28">            
 <p>                
 Alle er korrekte!</p>
+<br/>
 
 <script type="text/javascript">
          <!--

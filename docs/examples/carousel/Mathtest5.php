@@ -20,7 +20,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Your profile</title>
+    <title>Dividation</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">

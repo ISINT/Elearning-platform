@@ -69,8 +69,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
         </form>
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
-    </nav><!-- /.navbar -->
-================================================== -->
+    </nav>
     
       <body>
          

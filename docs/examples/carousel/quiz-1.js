@@ -50,12 +50,7 @@ var cat12 = ($("input[name=q12]:checked").val() != "d");
 var cat28 = (!cat1 && !cat2 && !cat3 && 
 			 !cat4 && !cat5 && !cat6 && 
 			 !cat7 && !cat8 && !cat9 && 
-			 !cat10 && !cat11 && !cat12 && 
-			 !cat13 && !cat14 && !cat15 &&
-			 !cat16 && !cat17 && !cat18 &&
-			 !cat19 && !cat20 && !cat21 &&
-			 !cat22 && !cat23 && !cat24 &&
-			 !cat25 && !cat26 && !cat27
+			 !cat10 && !cat11 && !cat12
 			); var categories = [];                        
 
 if (cat1) { categories.push(cat1name) };            
@@ -86,7 +81,7 @@ if (cat8) { $("#category8").show("slow"); };
 if (cat9) { $("#category9").show("slow"); };            
 if (cat10) { $("#category10").show("slow"); };            
 if (cat11) { $("#category11").show("slow"); };   
-if (cat12) { $("#category12").show("slow"); };         
+if (cat12) { $("#category12").show("slow"); };    
 if (cat28) { $("#category28").show("slow"); };
 { $("#closing").show("slow"); };
 }

@@ -158,7 +158,7 @@
 				$sqlSetning=" INSERT INTO elearning (firstName,surname,username,userPassword) VALUES('$firstName','$surname','$username','$userPassword');";
 				mysqli_query($db,$sqlSetning) or die ("<center><h3>Not been possible to connect to database now, try again </h3></center>");
 				print("<center><h2>You are now registered as $username!</h2></center>");
-                print("<a href='index.html'><center><h3>Go to home page to log in.&leftarr;</h3></center>");
+                print("<a href='index.html'><center><h3>Go to home page to log in. &rarr;</h3></center>");
                 		
 			}
 		}

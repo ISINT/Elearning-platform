@@ -117,7 +117,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
             <div class="masthead clearfix">
               <div class="inner">
   <h3 class="masthead-brand">Figures</h3>
-              <iframe width="840" height="630" src="http://www.youtube.com/embed/MthtpKV7ZuI?autoplay"></iframe><br/>
+              <iframe width="840" height="630" src="https://www.youtube.com/embed/MthtpKV7ZuI?autoplay"></iframe><br/>
               <p class="lead">
               <p class="lead">Are you ready to take the test about Multiplication, click the button below </p><br/>
               <p class="lead">Have Pen and paper ready! </p><br/>

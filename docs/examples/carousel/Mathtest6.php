@@ -71,8 +71,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
             
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
-    </nav><!-- /.navbar -->
-================================================== -->         
+    </nav><!-- /.navbar -->      
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">

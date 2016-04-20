@@ -84,8 +84,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
           <h3 class="masthead-brand">Shapes</h3>
           <div class="row">
           <div class="col-sm-4 box1 Biggerboxes">
-             
-            <h5 class="question text-center">16+3</h5>        
+                     
 
               <h5 class="question text-center">The figure on the picture is?</h5>
                   <img src="images/geometry-oval.jpg" alt="Image of oval" style="width:150px;height:150px;">

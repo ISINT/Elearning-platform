@@ -34,7 +34,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="quizaddon.css" rel="stylesheet">
+    <link href="quizaddon2.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -57,21 +57,23 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-                <a class="navbar-brand" href="home-page.html"><img src="images/MC_logo.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
+         <a class="navbar-brand" href="home-page.html"><img src="images/MC_logo.png" alt="Math corner logo" style="width:180px;height:50px;"> </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="topics.php">Topics</a></li>
+            <li><a href="topics.php">Topics</a></li>
             <li><a href="about-us.php">About us</a></li>
-            <li><a href="contact-us.php">Contact us</a></li>
+            <li><a href="contactUs.php">Contact us</a></li>
           </ul>
-             <form class="navbar-form navbar-right" action="logout.php">
+            <form class="navbar-form navbar-right" action="logout.php">
         <button class="btn btn-primary" >Log out</button>
         </form>
+            
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
     </nav><!-- /.navbar -->
-<br/>
+     <!-- NAVBAR SLUTT
+================================================== -->         
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
@@ -79,15 +81,11 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
         <div class="cover-container">
 
           <div class="inner cover">
-          <h3 class="masthead-brand">Addition and Subtraction</h3>
-    <div class="row">
-      <div class="col-sm-12 box4">
-          <h3>Addition and Subtraction</h3>
-            <h4>Level 1</h4>
-          </div>
+          <h3 class="masthead-brand">Shapes</h3>
+          <div class="row">
           <div class="col-sm-4 box1 Biggerboxes">
-          
-              <h5 class="question text-center">16+3</h5>        
+             
+            <h5 class="question text-center">16+3</h5>        
 
               <h5 class="question text-center">The figure on the picture is?</h5>
                   <img src="images/geometry-oval.jpg" alt="Image of oval" style="width:150px;height:150px;">

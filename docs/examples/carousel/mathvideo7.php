@@ -70,41 +70,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
     </nav>
-    
-      <body>
-         
-      <div class="container">
-       <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><strong>Group5ELearn</strong></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-        <form class="navbar-form navbar-right" action="#">
-        <button class="btn btn-primary ">Sign up</button>
-        </form>
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-            
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
-          </div>
-     <!-- NAVBAR SLUTT
-  ==================================================  -->
+
   
      <div class="site-wrapper">
  
@@ -116,10 +82,10 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
             <div class="masthead clearfix">
               <div class="inner">
   <h3 class="masthead-brand">Fractions</h3>
-              <iframe width="840" height="630" src="http://www.youtube.com/embed/N0_6ooKWyPI0i4?autoplay"></iframe><br/>
+              <iframe width="840" height="630" src="https://www.youtube.com/embed/N0_6ooKWyPI0i4?autoplay"></iframe><br/>
               <p class="lead">
               <p class="lead">Are you ready to take the test about Fractions, click the button below </p><br/>
-              <p class="lead">Have Pen and paper ready! </p><br/>
+              <p class="lead">Have pen and paper ready! </p><br/>
                <a href="mathtest7.php" class="btn btn-lg btn-success">Take the test</a>
               </p>
             </div>

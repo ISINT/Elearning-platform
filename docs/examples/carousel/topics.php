@@ -87,7 +87,7 @@ print("<h2>Log in is required to access this page!</h2> <br/>");
             <hr>
             <div class="jumbotron">
             <a href="mathvideo2.php"><h2>Addition and Subtraction</h2></a>
-            <p><img class="img-rounded" src="images/clock.jpg" alt="Generic placeholder image" width="130" height="130" align="left">What is the time on the clock? What time did you wake up this morning? What time does school start everyday? Time is best learnt the fun way. Try it with Jody now!</p>
+            <p><img class="img-rounded" src="images/clock.jpg" alt="Generic placeholder image" width="130" height="130" align="left">Annie and Jose have fun with Addition and Subtraction in their new garden. Addition and subtraction are the most basic things of Mathematics. In this basic math video you will learn all the basics of addition and subtraction</p>
           </div>
             <hr>
             <div class="jumbotron">

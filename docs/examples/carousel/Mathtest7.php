@@ -285,7 +285,13 @@ Alle er korrekte!</p>
                window.location="https://home.hbv.no/11091/eLearn/examples/carousel/accomplishments.php";
             }
          //-->
-      </script>        
+      </script>
+   <p>Click the following button, you will be redirected to home page.</p>
+      
+      <form>
+         <input type="button" value="Redirect Me" onclick="Redirect();" />
+      </form>
+</div>        
 </div>
 
 <script type="text/javascript" src="jquery.js"></script>

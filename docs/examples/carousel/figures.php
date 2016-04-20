@@ -144,14 +144,18 @@ Show me the answers
 <p>                
 Alle er korrekte!</p>
 <br/>
-
 <script type="text/javascript">
          <!--
             function Redirect() {
                window.location="https://home.hbv.no/11091/eLearn/examples/carousel/accomplishments.php";
             }
          //-->
-      </script>        
+      </script>
+   <p>Click the following button, you will be redirected to home page.</p>
+      
+      <form>
+         <input type="button" value="Redirect Me" onclick="Redirect();" />
+      </form>
 </div>
 
 <script type="text/javascript" src="jquery.js"></script>
